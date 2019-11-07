@@ -10,6 +10,8 @@ git clone https://github.com/aws/aws-codedeploy-agent.git
 gem install bundler
 cd aws-codedeploy-agent
 bundle install
+//If bundle install fail, try:
+sudo apt install ruby-full
 rake clean && rake
 ```
 
